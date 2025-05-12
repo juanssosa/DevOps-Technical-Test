@@ -55,8 +55,8 @@ docker run --name parking-app --env-file .env -p 1222:1222 duvangt/juan-sosa:v1.
 ```
 PARKING_LOT_DB_IP=host.docker.internal
 PARKING_LOT_DB_PORT=3306
-DATABASE_USERNAME=parkinguser
-DATABASE_PASSWORD=secret
+DATABASE_USERNAME=park
+DATABASE_PASSWORD=pass
 ```
 
 
