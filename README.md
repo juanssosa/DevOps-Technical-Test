@@ -48,6 +48,12 @@ docker run --name parking-app --env-file .env -p 1222:1222 parkinglot-app:v1.0
 docker run --name parking-app --env-file .env -p 1222:1222 duvangt/juan-sosa:v1.0
 ```
 
+### Ejecutar imagen con docker-compose
+
+```bash
+docker-compose up -d
+```
+
 ## ⚙️ Configuración
 
 ### Ejemplo de archivo `.env`
@@ -80,6 +86,7 @@ docker run --name parking-db -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=p
 docker build -t parkinglot-app:v1.0 .
 docker run --name parking-app --env-file .env -p 1222:1222 parkinglot-app:v1.0
 docker run --name parking-app --env-file .env -p 1222:1222 duvangt/juan-sosa:v1.0
+docker-compose up -d
 
 ```
 
